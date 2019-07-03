@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10A27B6622CB89F700D6F932 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A27B6522CB89F700D6F932 /* Default-568h@2x.png */; };
+		10A27B6822CB8AFD00D6F932 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B6722CB8AFD00D6F932 /* JsonParser.swift */; };
+		10A27B6A22CB8BF000D6F932 /* RecipePuppyAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B6922CB8BF000D6F932 /* RecipePuppyAPIService.swift */; };
+		10A27B6C22CB8C9E00D6F932 /* RecipeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B6B22CB8C9E00D6F932 /* RecipeLoader.swift */; };
+		10A27B7522CB956600D6F932 /* Alamofire.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A27B7422CB956600D6F932 /* Alamofire.swift */; };
+		10A27B7722CB958A00D6F932 /* SwiftyJSON.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A27B7622CB958A00D6F932 /* SwiftyJSON.swift */; };
+		10A27B7B22CB9BA300D6F932 /* ResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B7A22CB9BA300D6F932 /* ResultCollectionViewCell.swift */; };
+		10A27B7D22CB9BE800D6F932 /* ResultsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B7C22CB9BE800D6F932 /* ResultsCollectionViewController.swift */; };
 		10CD96A622C9CADA00EC3C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD96A522C9CADA00EC3C1C /* AppDelegate.swift */; };
 		10CD96A822C9CADA00EC3C1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD96A722C9CADA00EC3C1C /* ViewController.swift */; };
 		10CD96AB22C9CADA00EC3C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CD96A922C9CADA00EC3C1C /* Main.storyboard */; };
@@ -15,9 +23,19 @@
 		10CD96B322C9CADC00EC3C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CD96B122C9CADC00EC3C1C /* LaunchScreen.storyboard */; };
 		10CD96BB22C9EE2700EC3C1C /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD96BA22C9EE2700EC3C1C /* Media.swift */; };
 		10CD96BF22CA485900EC3C1C /* IngredientSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD96BE22CA485900EC3C1C /* IngredientSearchBar.swift */; };
+		291AD05A28FFDC58ABD53AB3 /* Pods_Magic_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59978C75FEAEA403E0AC7AAF /* Pods_Magic_Recipe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10A27B6522CB89F700D6F932 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		10A27B6722CB8AFD00D6F932 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		10A27B6922CB8BF000D6F932 /* RecipePuppyAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePuppyAPIService.swift; sourceTree = "<group>"; };
+		10A27B6B22CB8C9E00D6F932 /* RecipeLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeLoader.swift; sourceTree = "<group>"; };
+		10A27B7022CB951300D6F932 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = "../../../../Downloads/Left-master/Podfile"; sourceTree = "<group>"; };
+		10A27B7422CB956600D6F932 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = "../../../../Downloads/Left-master/Pods/Alamofire/Source/Alamofire.swift"; sourceTree = "<group>"; };
+		10A27B7622CB958A00D6F932 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Downloads/Left-master/Pods/SwiftyJSON/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		10A27B7A22CB9BA300D6F932 /* ResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCollectionViewCell.swift; sourceTree = "<group>"; };
+		10A27B7C22CB9BE800D6F932 /* ResultsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCollectionViewController.swift; sourceTree = "<group>"; };
 		10CD96A222C9CADA00EC3C1C /* Magic Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CD96A522C9CADA00EC3C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10CD96A722C9CADA00EC3C1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +46,9 @@
 		10CD96B422C9CADC00EC3C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10CD96BA22C9EE2700EC3C1C /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		10CD96BE22CA485900EC3C1C /* IngredientSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientSearchBar.swift; sourceTree = "<group>"; };
+		394057A4DB433B5BE2C17D22 /* Pods-Magic Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic Recipe.debug.xcconfig"; path = "Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe.debug.xcconfig"; sourceTree = "<group>"; };
+		59978C75FEAEA403E0AC7AAF /* Pods_Magic_Recipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magic_Recipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87C48E6A3714A9A9FC8368B /* Pods-Magic Recipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic Recipe.release.xcconfig"; path = "Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +56,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A27B7722CB958A00D6F932 /* SwiftyJSON.swift in Frameworks */,
+				10A27B7522CB956600D6F932 /* Alamofire.swift in Frameworks */,
+				291AD05A28FFDC58ABD53AB3 /* Pods_Magic_Recipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10A27B6122CB88D200D6F932 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10CD96BE22CA485900EC3C1C /* IngredientSearchBar.swift */,
+				10CD96A722C9CADA00EC3C1C /* ViewController.swift */,
+				10A27B7C22CB9BE800D6F932 /* ResultsCollectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		10A27B6222CB88F300D6F932 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10CD96AC22C9CADA00EC3C1C /* Magic_Recipe.xcdatamodeld */,
+				10CD96BA22C9EE2700EC3C1C /* Media.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10A27B6322CB892700D6F932 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				10A27B6722CB8AFD00D6F932 /* JsonParser.swift */,
+				10A27B6922CB8BF000D6F932 /* RecipePuppyAPIService.swift */,
+				10A27B6B22CB8C9E00D6F932 /* RecipeLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		10A27B6422CB893A00D6F932 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				10CD96A522C9CADA00EC3C1C /* AppDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		10A27B6D22CB8F4300D6F932 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10A27B7A22CB9BA300D6F932 /* ResultCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		10CD969922C9CADA00EC3C1C = {
 			isa = PBXGroup;
 			children = (
+				10A27B6522CB89F700D6F932 /* Default-568h@2x.png */,
 				10CD96A422C9CADA00EC3C1C /* Magic Recipe */,
+				10CD96B122C9CADC00EC3C1C /* LaunchScreen.storyboard */,
+				10CD96AF22C9CADC00EC3C1C /* Assets.xcassets */,
 				10CD96A322C9CADA00EC3C1C /* Products */,
+				BCF2FCADB300595D119B722F /* Pods */,
+				B5D50C212A39A901B68890A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +134,35 @@
 		10CD96A422C9CADA00EC3C1C /* Magic Recipe */ = {
 			isa = PBXGroup;
 			children = (
-				10CD96A522C9CADA00EC3C1C /* AppDelegate.swift */,
-				10CD96A722C9CADA00EC3C1C /* ViewController.swift */,
-				10CD96BE22CA485900EC3C1C /* IngredientSearchBar.swift */,
 				10CD96A922C9CADA00EC3C1C /* Main.storyboard */,
-				10CD96AF22C9CADC00EC3C1C /* Assets.xcassets */,
-				10CD96B122C9CADC00EC3C1C /* LaunchScreen.storyboard */,
 				10CD96B422C9CADC00EC3C1C /* Info.plist */,
-				10CD96AC22C9CADA00EC3C1C /* Magic_Recipe.xcdatamodeld */,
-				10CD96BA22C9EE2700EC3C1C /* Media.swift */,
+				10A27B6D22CB8F4300D6F932 /* View */,
+				10A27B6122CB88D200D6F932 /* View Controllers */,
+				10A27B6322CB892700D6F932 /* Services */,
+				10A27B6222CB88F300D6F932 /* Model */,
+				10A27B6422CB893A00D6F932 /* Others */,
 			);
 			path = "Magic Recipe";
+			sourceTree = "<group>";
+		};
+		B5D50C212A39A901B68890A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10A27B7622CB958A00D6F932 /* SwiftyJSON.swift */,
+				10A27B7422CB956600D6F932 /* Alamofire.swift */,
+				10A27B7022CB951300D6F932 /* Podfile */,
+				59978C75FEAEA403E0AC7AAF /* Pods_Magic_Recipe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF2FCADB300595D119B722F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				394057A4DB433B5BE2C17D22 /* Pods-Magic Recipe.debug.xcconfig */,
+				A87C48E6A3714A9A9FC8368B /* Pods-Magic Recipe.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10CD96B722C9CADC00EC3C1C /* Build configuration list for PBXNativeTarget "Magic Recipe" */;
 			buildPhases = (
+				E6556328E3DE2B1C798DAE2B /* [CP] Check Pods Manifest.lock */,
 				10CD969E22C9CADA00EC3C1C /* Sources */,
 				10CD969F22C9CADA00EC3C1C /* Frameworks */,
 				10CD96A022C9CADA00EC3C1C /* Resources */,
@@ -132,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10CD96B322C9CADC00EC3C1C /* LaunchScreen.storyboard in Resources */,
+				10A27B6622CB89F700D6F932 /* Default-568h@2x.png in Resources */,
 				10CD96B022C9CADC00EC3C1C /* Assets.xcassets in Resources */,
 				10CD96AB22C9CADA00EC3C1C /* Main.storyboard in Resources */,
 			);
@@ -139,13 +233,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E6556328E3DE2B1C798DAE2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magic Recipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10CD969E22C9CADA00EC3C1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				10CD96A822C9CADA00EC3C1C /* ViewController.swift in Sources */,
+				10A27B7D22CB9BE800D6F932 /* ResultsCollectionViewController.swift in Sources */,
+				10A27B7B22CB9BA300D6F932 /* ResultCollectionViewCell.swift in Sources */,
+				10A27B6822CB8AFD00D6F932 /* JsonParser.swift in Sources */,
+				10A27B6A22CB8BF000D6F932 /* RecipePuppyAPIService.swift in Sources */,
 				10CD96A622C9CADA00EC3C1C /* AppDelegate.swift in Sources */,
+				10A27B6C22CB8C9E00D6F932 /* RecipeLoader.swift in Sources */,
 				10CD96BF22CA485900EC3C1C /* IngredientSearchBar.swift in Sources */,
 				10CD96BB22C9EE2700EC3C1C /* Media.swift in Sources */,
 				10CD96AE22C9CADA00EC3C1C /* Magic_Recipe.xcdatamodeld in Sources */,
@@ -292,6 +416,7 @@
 		};
 		10CD96B822C9CADC00EC3C1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394057A4DB433B5BE2C17D22 /* Pods-Magic Recipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,6 +435,7 @@
 		};
 		10CD96B922C9CADC00EC3C1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87C48E6A3714A9A9FC8368B /* Pods-Magic Recipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
