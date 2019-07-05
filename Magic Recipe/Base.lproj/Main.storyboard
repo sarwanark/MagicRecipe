@@ -30,7 +30,7 @@
                             <view alpha="0.90000000000000002" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZrY-8z-xLi">
                                 <rect key="frame" x="20" y="378" width="374" height="150"/>
                                 <subviews>
-                                    <searchBar clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" placeholder="Search Ingredient" translatesAutoresizingMaskIntoConstraints="NO" id="2m3-ke-eva" customClass="IngredientSearchBar" customModule="Magic_Recipe" customModuleProvider="target">
+                                    <searchBar clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" placeholder="Search Ingredient" showsSearchResultsButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2m3-ke-eva" customClass="IngredientSearchBar" customModule="Magic_Recipe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="8" width="374" height="56"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

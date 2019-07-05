@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var urlString = "http://www.recipepuppy.com/api/"
+    private static let API_KEY: String = "400e22eaddab06eb824459ec83569fa2"
+    private static let APP_ID: String = "e55ad535"
+    private static var category: String = "veg"
+    private static let BASE_URL: String = "https://api.edamam.com/search?q=" + category + "&app_id=" + APP_ID + "&app_key=" + API_KEY
+    
     @IBOutlet var ingredientSearchBar: UISearchBar!
     @IBOutlet var recipeSearchButton: UIButton!
     @IBOutlet var jsonTextView: UITextView!
@@ -32,16 +36,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func recipeSearchAction(_ sender: UIButton) {
-        searchContentView.frame = CGRect(x: 20, y: 50, width: 374, height: 150)
         
+        searchContentView.frame = CGRect(x: 20, y: 50, width: 374, height: 150)
+        let urlString = ViewController.BASE_URL
         jsonTextView.isHidden = false
         guard let url = URL(string: urlString) else { return }
+        print(url)
         let request = URLRequest(url: url)
         
         let session = URLSession.shared
         session.dataTask(with: request) { (data, response, error) in
-            if let _ = response {
-                //print(response)
+            if let response = response {
+                print(response)
             }
             
             if let data = data {

@@ -11,8 +11,6 @@
 		10A27B6822CB8AFD00D6F932 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B6722CB8AFD00D6F932 /* JsonParser.swift */; };
 		10A27B6A22CB8BF000D6F932 /* RecipePuppyAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B6922CB8BF000D6F932 /* RecipePuppyAPIService.swift */; };
 		10A27B6C22CB8C9E00D6F932 /* RecipeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B6B22CB8C9E00D6F932 /* RecipeLoader.swift */; };
-		10A27B7522CB956600D6F932 /* Alamofire.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A27B7422CB956600D6F932 /* Alamofire.swift */; };
-		10A27B7722CB958A00D6F932 /* SwiftyJSON.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A27B7622CB958A00D6F932 /* SwiftyJSON.swift */; };
 		10A27B7B22CB9BA300D6F932 /* ResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B7A22CB9BA300D6F932 /* ResultCollectionViewCell.swift */; };
 		10A27B7D22CB9BE800D6F932 /* ResultsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A27B7C22CB9BE800D6F932 /* ResultsCollectionViewController.swift */; };
 		10CD96A622C9CADA00EC3C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD96A522C9CADA00EC3C1C /* AppDelegate.swift */; };
@@ -23,7 +21,6 @@
 		10CD96B322C9CADC00EC3C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CD96B122C9CADC00EC3C1C /* LaunchScreen.storyboard */; };
 		10CD96BB22C9EE2700EC3C1C /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD96BA22C9EE2700EC3C1C /* Media.swift */; };
 		10CD96BF22CA485900EC3C1C /* IngredientSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD96BE22CA485900EC3C1C /* IngredientSearchBar.swift */; };
-		291AD05A28FFDC58ABD53AB3 /* Pods_Magic_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59978C75FEAEA403E0AC7AAF /* Pods_Magic_Recipe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +28,6 @@
 		10A27B6722CB8AFD00D6F932 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
 		10A27B6922CB8BF000D6F932 /* RecipePuppyAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePuppyAPIService.swift; sourceTree = "<group>"; };
 		10A27B6B22CB8C9E00D6F932 /* RecipeLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeLoader.swift; sourceTree = "<group>"; };
-		10A27B7022CB951300D6F932 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = "../../../../Downloads/Left-master/Podfile"; sourceTree = "<group>"; };
-		10A27B7422CB956600D6F932 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = "../../../../Downloads/Left-master/Pods/Alamofire/Source/Alamofire.swift"; sourceTree = "<group>"; };
-		10A27B7622CB958A00D6F932 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Downloads/Left-master/Pods/SwiftyJSON/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 		10A27B7A22CB9BA300D6F932 /* ResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		10A27B7C22CB9BE800D6F932 /* ResultsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCollectionViewController.swift; sourceTree = "<group>"; };
 		10CD96A222C9CADA00EC3C1C /* Magic Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,7 +41,6 @@
 		10CD96BA22C9EE2700EC3C1C /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		10CD96BE22CA485900EC3C1C /* IngredientSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientSearchBar.swift; sourceTree = "<group>"; };
 		394057A4DB433B5BE2C17D22 /* Pods-Magic Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic Recipe.debug.xcconfig"; path = "Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe.debug.xcconfig"; sourceTree = "<group>"; };
-		59978C75FEAEA403E0AC7AAF /* Pods_Magic_Recipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magic_Recipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87C48E6A3714A9A9FC8368B /* Pods-Magic Recipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic Recipe.release.xcconfig"; path = "Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,9 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10A27B7722CB958A00D6F932 /* SwiftyJSON.swift in Frameworks */,
-				10A27B7522CB956600D6F932 /* Alamofire.swift in Frameworks */,
-				291AD05A28FFDC58ABD53AB3 /* Pods_Magic_Recipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,10 +138,6 @@
 		B5D50C212A39A901B68890A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10A27B7622CB958A00D6F932 /* SwiftyJSON.swift */,
-				10A27B7422CB956600D6F932 /* Alamofire.swift */,
-				10A27B7022CB951300D6F932 /* Podfile */,
-				59978C75FEAEA403E0AC7AAF /* Pods_Magic_Recipe.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
